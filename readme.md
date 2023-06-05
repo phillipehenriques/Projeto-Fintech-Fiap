@@ -17,4 +17,4 @@ Esse é meu projeto mais atualizado, e minuciosamente desenvolvido, para apresen
 
 Você pode ver mais dos meus projeto clicando [Nesse Link](https://github.com/phillipehenriques/) e me apoiar deixando um comentário.
 
-> ###### Visite também meu Instagram clicando [Nesse Link](https://www.instagram.com/ph_aranoia/) e conhecendo um pouco mais sobre minha vida e meu trabalho.
+> ###### Sou Criador de Conteúdo sobre Tecnologia e Acessibilidade, então Visite também meu Instagram, clicando [AQUI](https://www.instagram.com/ph_aranoia/) e conhecendo um pouco mais sobre minha vida e meu trabalho.
