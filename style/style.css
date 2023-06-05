@@ -1,0 +1,19 @@
+/* Definindo as variáveis */
+
+:root {
+    --bg-color: #161616;
+    --white-color: #ffffff;
+
+}
+
+/* Definindo regras de estilo */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--white-color);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    
+}
