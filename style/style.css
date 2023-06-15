@@ -79,6 +79,10 @@ nav {
     top: 110px;
 }
 
+.container {
+    width: 600px;
+}
+
 body {
     background-color: red;
 }
