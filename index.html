@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>CodeBank</title>
         <link href="style/style.css" rel="stylesheet">
         <link rel="stylesheet" href="./style/reset.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,11 +13,35 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     </head>
     <body>
-        <nav class="d-flex align-items-center justify-content-center nav-gap">
-            <span class="d-flex flex-column nav-fonte">CONTA</span>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
+            <a class="navbar-brand" style="margin-right: 5vw;" href="#">CodeBank</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>          
+            <div style="background-color: #D1BE13;" class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">CONTA<span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CARTÃO DE CRÉDITO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">EMPRÉSTIMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">INVESTIMENTOS</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 d-none d-lg-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
         </nav>
-        <div class="div_body">           
-            
+        
+        <div class="div_body">            
             <div class="box_left">
                 <div class="d-flex flex-column align-items-flex-start mt-2 ml-2 mb-3">
                     <a class="bd-highlight m-2" href="">Novidades</a>
@@ -33,8 +57,11 @@
                 <div class="push-b">
                     R$ 1200,00
                 </div>
-            </div>
-            
+            </div>            
         </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </body>
 </html>
