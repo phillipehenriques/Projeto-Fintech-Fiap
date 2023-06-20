@@ -58,13 +58,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top:350px;
+    margin-top:383px;
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
     background-color: #131313;
     width: 100%;
 }
-
 
 .push-a {
     font-size: 36px;
@@ -80,6 +79,24 @@ body {
 .container {
     margin-top: 150px;
     width: 500px;
+}
+
+.titulo {
+    font-size: 28px;
+    margin-left: 5vw;
+}
+
+.p_descricao {
+    color: rgb(211, 211, 211);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 2vh;
+}
+
+.descricao {
+    color: rgb(211, 211, 211);
+    font-size: 20px;
+    font-weight: 300;
 }
 
 /* --------------------- NAVBAR --------------------- */
@@ -105,9 +122,21 @@ body {
     background-color: #2FBA4F;
 }
 
+
+
 @media (max-width: 991.98px) {
     .form-inline {
         display: none;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: autpo;
+        margin-top: 230px;
+        padding: 5px;
     }
 }
 
