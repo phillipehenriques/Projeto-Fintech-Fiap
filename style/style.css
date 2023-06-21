@@ -16,8 +16,6 @@
 
 /* Anchor style */
 
-
-
 a {
     text-decoration: none;
     color: var(--white-color);
@@ -50,7 +48,7 @@ body {
     background-color: var(--bg-color);
     color: var(--white-color);
     font-family: 'Outfit', sans-serif;
-    height: 100vh;
+    height: auto;
 }
 
 .footer {    
@@ -81,11 +79,6 @@ body {
     width: 500px;
 }
 
-.titulo {
-    font-size: 28px;
-    margin-left: 5vw;
-}
-
 .p_descricao {
     color: rgb(211, 211, 211);
     font-size: 20px;
@@ -98,6 +91,19 @@ body {
     font-size: 20px;
     font-weight: 300;
 }
+
+.titulo {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 5vh;
+}
+
+.sub-titulo {
+    font-size: 28px;
+
+}
+
+
 
 /* --------------------- NAVBAR --------------------- */
 
@@ -122,7 +128,7 @@ body {
     background-color: #2FBA4F;
 }
 
-
+/* --------------------- FIM NAVBAR --------------------- */
 
 @media (max-width: 991.98px) {
     .form-inline {
