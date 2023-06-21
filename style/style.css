@@ -27,10 +27,6 @@ nav {
     background-color: var(--gold-color);
 }
 
-body {
-    background-color: red;
-}
-
 .nav-gap {
     gap: 10px;
 }
@@ -42,13 +38,22 @@ body {
 
 /* Body Style */
 
-.div_body {
+.div_body_conta {
     display: flex;
     flex-direction: column;
     background-color: var(--bg-color);
     color: var(--white-color);
     font-family: 'Outfit', sans-serif;
-    height: auto;
+    height: 812px;
+}
+
+.div_body_cartao {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    color: var(--white-color);
+    font-family: 'Outfit', sans-serif;
+    height: 812px;
 }
 
 .footer {    
@@ -56,7 +61,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top:383px;
+    margin-top: none;
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
     background-color: #131313;
@@ -100,7 +105,6 @@ body {
 
 .sub-titulo {
     font-size: 28px;
-
 }
 
 
@@ -171,5 +175,7 @@ body {
         
     }
 
-    
+    .sub-titulo {
+        text-align: center;
+    }
 }
