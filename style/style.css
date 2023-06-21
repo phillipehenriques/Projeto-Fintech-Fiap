@@ -107,8 +107,6 @@ nav {
     font-size: 28px;
 }
 
-
-
 /* --------------------- NAVBAR --------------------- */
 
 .bg-navbar {
@@ -144,9 +142,17 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: autpo;
-        margin-top: 230px;
+        margin: auto;
+        width: auto;
         padding: 5px;
+    }
+
+    .div_body_conta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        height: 700px;
     }
 }
 
@@ -156,23 +162,22 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border-radius: 12px;
-        width: 420px;
-        margin-top: 100px;
+        margin: auto;
+        width: auto;
         padding: 5px;
     }
 
-    .div_body {
+    .div_body_cartao {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: start;
+        height: 800px;
     }
 
     .container {
         margin-top: 100px;
-        width: 380px;
-        
+        width: 380px;        
     }
 
     .sub-titulo {
